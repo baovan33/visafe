@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #9595A6;
+    font-family: "Montserrat", sans-serif;
+}
+/* header */
+header {
+    background-color: #307CFF;
+}
+.top-header {
+    height: 50px;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.top-header p {
+    margin-bottom: 0px;
+}
+.top-header-button {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 0.5px solid #FFFFFF;
+    padding: 13px;
+    height: 40px;
+    max-width: 551px;
+    color: #2A2A35;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration: none;
+    cursor: none;
+    
+}
+/* menu */
+.logo-img {
+    width: 90px;
+    height: 72px;
+}
+.boder-top {
+    border-top: 0.8px solid #ded7d7;
+
+}
+/* banner */
+.banner {
+    height: 619px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 1)), url(../image/banner.png);
+    background-size: 70% 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.banner h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #2A2A35;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    margin-bottom: 30px;
+
+}
+
+.button-banner {
+    border:none;
+    height: 54px;
+    width: 170px;
+    border-radius: 68px;
+    color: #FFFF;
+    background-color: #70B64D;
+    padding: 16px, 32px, 16px, 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
+
+/* slider */
+.margin-item-top {
+    margin-top: 50px;
+}
+.slider-item {
+    height: 311px;
+}
+.margin-item-right {
+    margin-right: 30px;
+}
+.padding-item-none {
+    padding: 0;
+}
+.slider-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #2A2A35;
+}
+
+.crossbar {
+    background-color: #70B64D;
+    width: 70px;
+    height: 4px;
+}
+
+.container-sub {
+    max-width: 1140px;
+    margin-left: 70px;
+}
+
+.slider-content-title {
+    padding: 45px;
+    background-color: #FBFBFB;
+}
+
+.slider-content-title h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+}
+
+.slider-content-title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.custom-col-6 {
+    flex: 0 0 calc(50% - 8px);
+}
+
+.slider-block {
+    position: relative;
+    gap: 15px;
+    transition: 3s;
+}
+
+.slider-block-item {
+    border-radius: 10px;
+    border: solid 0.5px #ded7d7;
+}
+
+/* help */
+.help-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #2A2A35;
+}
+
+.help-content {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.help-content-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #2A2A35;
+}
+
+.help-content {
+    background-color: #FBFBFB;
+}
+.help-list-title {
+    position: relative;
+    transition: 4s;
+}
+
+
+.num_active_click {
+    font-weight: 500;
+     color: black; 
+     font-size: 20px;
+}
+
+.next-help {
+    margin-left: 4px;
+     color: black; 
+     font-size: 20px;
+}
+
+.prev-help {
+    margin-right: 4px;
+    color: black; 
+    font-size: 20px;
+    display: none;
+}
+/* arrange */
+
+.arrange-input {
+    height: 47px;
+}
+
+.arrange-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2A2A35;
+}
+
+.arrange-input-special {
+    height: 90px;
+
+}
+
+input[type=checkbox]:checked{
+    background-color: #70B64D !important;
+}
+
+.btn-form {
+    background-color: #70B64D;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* faq */
+.faq {
+    background-color: #FBFBFB;
+}
+.faq-ask {
+    background-color: #e2ebde;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer {
+    background-color: #2A2A35;
+    color: white;
+
+}
+.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-content {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+footer ul li {
+    list-style: inside;
+}
+
+.bottom-footer {
+    background-color: #424249;
+    color: white;
+}
+
+.bottom-footer-content {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
